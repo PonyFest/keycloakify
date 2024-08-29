@@ -1,0 +1,79 @@
+
+:root {
+    --primary-color: #3f4786;
+    /* --secondary-color: #a6eafd; */
+    --secondary-color: #ffe4f3;
+    --background-color:#a7b3fb;
+    --border-color : #560530;
+}
+
+.kcHeaderWrapperClass {
+    color:var(--border-color);
+}
+
+.kcFormCardClass {
+    border: 5px solid var(--border-color);
+    background: var(--background-color);
+    border-radius: 25px;
+    color:var(--border-color);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.login-pf-page .login-pf-page-header {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .login-pf-page .card-pf {
+        border: 5px solid var(--border-color);
+    }
+}
+
+.pf-c-button.pf-m-primary {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition-duration: 0.4s;
+}
+
+.pf-c-button.pf-m-primary:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+#kc-info-wrapper {
+    font-size: 13px;
+    padding: 15px 35px;
+    background: none;
+    color:var(--border-color);
+    border-radius: 25px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.kcLocaleDropDownClass {
+    color:var(--border-color);
+}
+
+body.kcBodyClass {
+    background: url(./assets/background.jpg) no-repeat center center fixed;
+}
+
+#kc-locale-dropdown button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color:var(--border-color);
+    text-align: right;
+    font-size: var(--pf-global--FontSize--sm);
+    font-family: "Noto Sans", sans-serif;
+}
+
+#kc-form-options .checkbox {
+    margin-top: 0;
+    color:var(--border-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
